@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: OpenSans-H, "open sans", sans-serif;
+}
+
+#brands-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#lower-homepage{
+    margin: 0 91px;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.product-name{
+    font-size: 14px;
+    line-height: 20px;
+    border-bottom: 1px solid #c6c6c6;
+    font-weight: 600;
+}
+
+.by{
+    font-size: 12px;
+    color: #646464;
+    line-height: 20px;
+}
+
+.by-{
+    color: #ec1a30;
+    line-height: 20px;
+}
+
+.price{
+    font-size: 14px;
+    display: flex;
+    align-items: baseline;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.offer{
+    color: red;
+    padding-left: 33%;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.old-price{
+    font-size: 12px;
+    color: #646464;
+    margin-left: 3%;
+    background: linear-gradient(to left top, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%);
+    line-height: 20px;
+}
+
+#product-div{
+    height: 429px;
+    width: 267px;
+}
+
+#product-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+    /* justify-content: center; */
+    width: 1335px;
+    height: 1708px;
+}
+
+.press-container{
+    display: flex;
+    justify-content: space-between;
+}
