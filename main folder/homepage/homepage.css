@@ -1,21 +1,31 @@
-*{
+    *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+
+/* header1 */
 #header1{
     display: flex;
     border-bottom: 0.5px solid #E5E5E5;
     background-color: #ffffff;
+    position: sticky;
+    top: 0;
 
 }
 
+
+/* part1 */
 #part1 a{
     font-family: sans-serif;
-    font-weight: bold;
+    
     color: black;
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+    
 }
 #part1 img{
     color: black;
@@ -29,34 +39,45 @@
     height: 45px;
     /* border: 1px solid red; */
 }
-#search{
-    width: 200px;
-    border: 0;
-    background: #ececec;
 
 
-}
+/* part2 */
 #part2{
     width: 255px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
 }
 #part2 div{
-    padding: 12px;
+   
+    padding-left: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* padding-right: 10px; */
     border-left: 0.5px solid #E5E5E5;
+   
+    /* align-content: center; */
 }
+#icon4{
+    margin-right: 6px;
+}
+
+
 .searchbox{
     border: 2px solid #dedede;
     background: #ececec;
     height: 30px;
     width: 225px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     border-radius: 4px;
+}
+#search{
+    width: 185px;
+    border: 0;
+    background: #ececec;
+    outline: none;
 }
 
 .cart-circular{
@@ -72,6 +93,56 @@
     color: #fff;
     text-align: center;
     font-size: small;
-    margin-left: -7px;
+    margin-left: -15px;
     margin-top: -10px;
+}
+
+/* header2 */
+#header2{
+    height: 55px;
+    border-bottom: 0.5px solid #E5E5E5;
+    background-color: #ffffff;
+}
+#header2 img{
+    height: 50px;
+}
+
+/* background image  */
+.bg{
+    /* background-image: url(../Assets/oversized-t-shirts-homepage-slider-480-480x375.jpg); */
+    /* width: 100%; */
+    height: 320px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    
+}
+
+/* featured themes  */
+.subtitle{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+#p-featuredthemes{
+    display: flex;
+    justify-content: center;
+}
+#Theme-container{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#Theme-container div img{
+    height: 150px;
+}
+#theme5{
+    display: flex;
+    flex-direction: column;
+
+}
+.theme{
+    text-align: center;
 }
