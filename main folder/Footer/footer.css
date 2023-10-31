@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lora&family=Open+Sans:wght@300;400&family=Phudu:wght@300;400&family=Playfair+Display&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&family=Rubik&family=Titillium+Web:ital,wght@1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    width: 100vw;
+    height: 81vh;
+    background-color: #191919;
+    font-family: 'Open Sans', sans-serif;
+}
+.upper{
+    margin-top: 50px;
+    align-items: center;
+}
+.lower p{
+    color: white;
+}
+.lower{
+    width: 100vw;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+}
+.searchbar-footer{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #242424;
+    color: grey;
+    width: 1009px;
+    height: 50px;
+}
+.searchbar-footer input{
+    padding-left: 10px;
+}
+.searchbar-footer h8{
+    font-size: 14px;
+    margin: 0 20px 0 20px;
+}
+.foot-body h3{
+    font-size: 13px;
+    margin: 0 100px 15px 0;
+    color: white;
+    font-weight: bolder;
+}
+.foot-body{
+    margin-top: 8px;
+    margin-right: 200px;
+}
+.foot-body p{
+    color: grey;
+    margin-bottom: 2px;
+}
+.foot-body p:hover{
+    cursor: pointer;
+}
+.mid-line{
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.foot-{
+    justify-content: center;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.foot- img{
+    height: 35px;
+    margin-right: 20px;
+}
+.foot- div{
+    margin-right: 60px;
+}
+footer input{
+    border-radius: 5px;
+    width: 293px;
+    height: 32px;
+}
+footer button{
+    color: white;
+    font-weight: 900;
+    background-color: red;
+    border-radius: 5px;
+    height: 36px;
+    width: 177px;
+}
