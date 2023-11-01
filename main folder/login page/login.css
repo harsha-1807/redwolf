@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#header1{
+    display: flex;
+    border-bottom: 0.5px solid #E5E5E5;
+    background-color: #ffffff;
+
+}
+
+#part1 a{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+#part1 img{
+    color: black;
+    height: 45px;
+}
+#part1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 45px;
+    /* border: 1px solid red; */
+}
+#search{
+    width: 200px;
+    border: 0;
+    background: #ececec;
+
+
+}
+#part2{
+    width: 255px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+#part2 div{
+    padding: 12px;
+    border-left: 0.5px solid #E5E5E5;
+}
+.searchbox{
+    border: 2px solid #dedede;
+    background: #ececec;
+    height: 30px;
+    width: 225px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.cart-circular{
+    position: absolute;
+    color: #fff;
+    height: 18px;
+    width: 18px;
+    /* line-height: 16px; */
+    border-radius: 50%;
+    font-family: opensans-eb,open sans,"sans-serif";
+    padding: 2px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: small;
+    margin-left: -7px;
+    margin-top: -10px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 23px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #363636;
+    font-family: 'Open Sans', sans-serif
+}
+
+.login-heads{
+    font-size: medium;
+    font-weight: lighter;
+    padding-top: 15px;
+    text-decoration: none;
+    color: #646464;
+    
+}
+
+.register-here{
+    text-decoration: none;
+    color: red;
+}
+
+.login-form-grid{
+    font-size: 10px;
+    color: #646464;
+    display: flex;
+    padding: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.login-form-grid1{
+    font-size: 10px;
+    color: #646464;
+    display: flex;
+    padding: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.login-email{
+    padding-right:85px;
+    color: grey;
+    padding-top: 20px;
+}
+
+#email{
+    width: 540px;
+    padding-right: 6px 12px;
+    height: 34px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid lightgrey;
+    /* margin-top: \px; */
+}
+
+.login-password{
+    padding-right:15px;
+    color: grey;
+    padding-top: 20px;
+}
+
+#password{
+    width: 545px;
+    padding-right: 6px 12px;
+    height: 34px;
+    margin-left: 47px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid lightgrey;
+}
+
+.login-email-box{
+    padding-right: 80px;
+}
+.login-password-box{
+    padding-right: 80px;
+}
+.btn-danger{
+width: 100px;
+
+}
