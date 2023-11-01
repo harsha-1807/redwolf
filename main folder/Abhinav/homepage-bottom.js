@@ -1,3 +1,4 @@
+
 // Initialize an array to store products
 const products = [];
 
@@ -12,17 +13,17 @@ function addProduct(productData) {
 
 // Function to display products
 function displayProducts() {
-    const productContainer = document.getElementById('product-container');
+   const productContainer = document.getElementById('product-container');
 
-    // Clear the existing product container
-    productContainer.innerHTML = '';
+   // Clear the existing product container
+   productContainer.innerHTML = '';
 
-    products.forEach((product, index) => {
-        const productDiv = document.createElement('div');
-        productDiv.className = 'product-div';
+   products.forEach((product, index) => {
+       const productDiv = document.createElement('div');
+       productDiv.className = 'product-div';
 
-        productDiv.innerHTML = `
-            <div><img src="${product.image}" alt="" height="auto" width="267px"></div>
+       productDiv.innerHTML = `
+           <div><img src="${product.image}" alt="" height="auto" width="267px"></div>
             <div class="product-info">
                 <div class="product-name">${product.name}</div>
                 <div class="by">By <span class="by-">${product.brand}</span></div>
@@ -36,7 +37,9 @@ function displayProducts() {
 
         productContainer.appendChild(productDiv);
     });
-}
+    }
+    
+
 
 // Example: Add a product when the page loads
 addProduct({
@@ -198,5 +201,24 @@ addProduct({
    price: 599,
    oldPrice: 699,
    offer: "14% off",
-})
+});
 
+$(document).ready(function() {
+   // Add a hover effect to each product image
+   $('.product-div img').hover(
+       function() {
+           // Store the current image source
+           $(this).data('original-src', $(this).attr('src'));
+
+           // Replace the image source with the new image on hover
+           $(this).attr('src', './Assets/f13-crystal-lake-killer-oversized-t-shirt-india-255x340.jpg');
+       },
+       function() {
+           // Restore the original image source when the mouse leaves
+           $(this).attr('src', $(this).data('original-src'));
+       }
+   );
+
+   // Display products
+   displayProducts();
+});
