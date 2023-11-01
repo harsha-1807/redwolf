@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="checkout.css">
+    <script src="https://kit.fontawesome.com/e73f28c67e.js" crossorigin="anonymous"></script>
+    <script src="checkout.js"></script>
+</head>
+<body>
+    <!-- header  -->
+    <nav id="header1">
+        <!-- part1 -->
+        <div id="part1">
+            <img src="../Assets/logo ss.png" alt="" height="44px"  >
+
+            <div class="headings" id="heading1">
+                <a href="">SHOP </a>
+                <i class="fa-solid fa-chevron-down" style="color: #000000;"></i>
+            </div>
+            <div class="headings" id="heading2">
+                <a href="">MEN</a>
+                <i class="fa-solid fa-chevron-down" style="color: #000000;"></i>
+            </div>
+            <div class="headings" id="heading3">
+                <a href="">WOMEN</a>
+                <i class="fa-solid fa-chevron-down" style="color: #000000;"></i>   
+            </div>
+            <div class="headings" id="heading4">
+                <a href="">ACCESSORIES</a>
+                <i class="fa-solid fa-chevron-down" style="color: #000000;"></i>   
+            </div>
+            <div class="headings" id="heading5">
+                <a href="">CHARACTERS</a>
+                <i class="fa-solid fa-chevron-down" style="color: #000000;"></i>   
+            </div>
+            <div class="headings" id="heading6">
+                <a href="">ARTIST MERCH</a>
+                <i class="fa-solid fa-chevron-down" style="color: #000000;"></i>   
+            </div>
+            <div class="searchbox">
+                <i class="fa-solid fa-magnifying-glass" style="color: #D4161E;",style="height:2px;"></i>
+                <input type="text" id="search" placeholder="  Search for Products,Shows or">
+            </div>
+        </div>
+        <!-- part2 -->
+        <div id="part2">
+            <div  id="icon1">
+                <i class="fa-sharp fa-solid fa-circle-info fa-xl" style="color: #D4161E;" id="icon1"></i>
+            </div>
+            <div  id="icon2">
+                <i   class="fa fa-map-marker track-icon mytooltip fa-xl" style="color: #D4161E;" id="icon2"></i>
+            </div>
+            <div  id="icon3">
+                <i class="fa fa-user user-icon mytooltip fa-xl" style="color: #D4161E" id="icon3"></i>
+            </div>
+            <div  id="icon4">
+                <span   class="fa fa-shopping-cart cart-icon mytooltip fa-xl" id="icon4" style="color: #D4161E" class="icons"></span>
+                <span class="cart-circular">0</span>
+            </div>
+
+        </div>
+    </nav>
+
+    <div id="header2">
+        <p id="redCart">CART</p>
+        <p>></p>
+        <p>ADDRESS</p>
+        <p>></p>
+        <p>PAYMENT</p>
+        <p>></p>
+        <p>CONFIRM</p>
+    </div>
+
+    
+    <div id="head-container">
+        <div class="cart">
+            <div><h1>HERE'S WHAT'S IN YOUR CART</h1></div>
+        <div class="container">
+            <div class="left-container">
+                    <p id="product-name">CRYSTAL LAKE KILLER - FRIDAY THE 13TH OFFICIAL OVERSIZED T-SHIRT</p>
+                    <div class="box">
+                        <div id="product-image"><img src="./assets/jacket.png" alt=""></div>
+                        <div class="data">
+                            <div class="flex">
+                                <div id="features">
+                                    <p>Size:  <b>Medium</b></p>
+                                    <p>Style: <b>Oversized</b></p>
+                                    <p>Total: <b>Rs. 999</b></p>
+                                </div>
+                                <div id="quantity">
+                                    <label id="quanText" for="number">Quantity</label>
+                                    <div class="increment">
+                                        <span id="minus">-</span>
+                                        <span id="num">1</span>
+                                        <span id="plus">+</span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <button class="remove btn"><b>REMOVE</b></button>
+                                <button class="move btn"><b>MOVE TO WISHLIST</b></button>
+                            </div>
+                        </div>
+                    </div>  
+            </div>
+        </div>
+        <button id="firstcheckout"><b>Checkout</b></button> 
+        </div>
+
+
+
+        <div class="right-container">
+            <div id="checkout">
+                <button class="checkbtn">GO TO CHECKOUT</button>
+            </div>
+            <h4>COUPONS AND VOUCHERS</h4>
+    
+            <div class="couponBox">
+                <label class="control-label" for="input-coupon">DISCOUNT COUPON CODE:</label> <br>
+            <input type="text" name="coupon" placeholder="Enter your coupon here" class="coupon">
+            <span class="apply">APPLY</span>
+            </div>
+            <div id="marginTop"><a id="availableCode" href="#">VIEW AVALILABLE CODES</a></div>
+            <div class="voucherBox">
+                <label class="control-label" for="input-coupon">GIFT VOUCHER CODE:</label> <br>
+            <input type="text" name="coupon" placeholder="Enter your gift voucher code here" class="coupon">
+            <span class="apply">APPLY</span>
+            </div>
+            <h4 id="order">YOUR ORDER SUMMARY</h4>
+            <hr>
+            <table class="cost">
+                <p class="top">
+                    <span class="left">SUB-TOTAL:</span>
+                    <span class="left small">Rs. 799.00</span>
+                </p>
+                <hr>
+                <p class="top">
+                    <span class="left left2">TOTAL:</span>
+                    <span class="left small">Rs.799.00</span>
+                </p>
+            </table>
+            <hr>
+            <div class="callback-message">
+                <p id="earn">You will earn Rs. 19.98 as cash-back with this order <a id="red" href="#">(?)</a></p> 
+            </div>
+                <button id="up" class="checkbtn">GO TO CHECKOUT</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="lastDiv"><img src="./assets/home.png" alt="" id="home"><a href="#" id="arrow">></a><a href="#" id="shoppingText">Shopping Cart</a></div>
+        
+
+    <footer class="flex-column">
+        <div class="flex-column upper">
+            <div class="flex searchbar-footer">
+                <h8>Subscribe to our Newsletter for updates and exclusive coupons & deals</h8>
+                <input id="email" type="text" placeholder="Enter your Email adress">
+                <button type="submit">
+                    Submit
+                </button>
+            </div>
+            <div class="flex foot-body">
+                <div class="foot1">
+                    <h3>Information</h3>
+                    <p>About Us</p>
+                    <p>Delivery Information</p>
+                    <p>Return Policy</p>
+                    <p>Frequently Asked</p>
+                    <p>Questions</p>
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                    <p>Bulk & Custom</p>
+                    <p>Orders</p>
+                    <p>Preorder Campaigns</p>
+                    <p>Campus Ambassador</p>
+                    <p>Program</p>
+                </div>
+                <div class="foot2">
+                    <h3>Extras</h3>
+                    <p>Gift Vouchers</p>
+                    <p>Affiliates</p>
+                    <p>Fan wall</p>
+                    <p>Site Map</p>
+                </div>
+                <div class="foot3">
+                    <h3>Customer service</h3>
+                    <p>Contact Us</p>
+                    <p>Request A Return</p>
+                </div>
+                <div class="foot4">
+                    <h3>My Account</h3>
+                    <p>My Account</p>
+                    <p>Order History</p>
+                    <p>Newsletter</p>
+                </div>
+                <div class="foot5">
+                    <h3>Social</h3>
+                    <img src="../Assets/social imgs.png" alt="social">
+                </div>
+            </div>
+        </div>
+        <div class="mid-line">
+            <p>Our site uses secure payment gateways. All major credit & debit cards accepted.</p>
+        </div>
+        <div class="flex foot-">
+            <div class="flex foot-1">
+                <img src="../Assets/truck img.png" alt="truck">
+                <div>
+                    <p>FREE SHIPPING ON ALL</p>
+                    <p>PREPAID ORDERS OVER Rs.499<p>
+                </div>
+            </div>
+            <div class="flex foot-2">
+                <img src="../Assets/ruppee img.png" alt="ruppee">
+                <div>
+                    <p>CASH ON DELIVERY AVAILABLE<p>
+                    <p>TO MOST PARTS OF INDIA</p>
+                </div>
+            </div>
+            <div class="flex foot-3">
+                <img src="../Assets/return img.png" alt="return">
+                <div>
+                    <p>EASY 15 DAY RETURN</p>
+                    <p>POLICY</p>
+                </div>
+            </div>
+        </div>
+        <div class="lower flex">
+            <p>© 2023 Redwolf, All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

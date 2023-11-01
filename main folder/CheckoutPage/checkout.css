@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Noto+Sans+Kawi:wght@400;700&family=Noto+Sans:wght@900&family=Nunito:wght@600&family=Open+Sans:ital,wght@0,400;0,800;1,300&family=Playfair+Display:wght@500&family=Poppins:ital@0;1&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Kawi', sans-serif;
+}
+
+/* header1 */
+#header1{
+    display: flex;
+    border-bottom: 0.5px solid #E5E5E5;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* part1 */
+#part1 a{
+    font-family: sans-serif;
+    
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+    
+}
+#part1 img{
+    color: black;
+    height: 45px;
+}
+#part1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 45px;
+    /* border: 1px solid red; */
+}
+
+
+/* part2 */
+#part2{
+    width: 255px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+}
+#part2 div{
+   
+    padding-left: 18px;
+    padding-top: 10px;
+    border-left: 0.5px solid #E5E5E5;
+    margin-top: -8px;
+}
+#icon4{
+    margin-right: 6px;
+}
+
+
+.searchbox{
+    border: 2px solid #dedede;
+    background: #ececec;
+    height: 30px;
+    width: 225px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+}
+#search{
+    width: 185px;
+    border: 0;
+    background: #ececec;
+    outline: none;
+}
+
+.cart-circular{
+    position: absolute;
+    color: #fff;
+    height: 18px;
+    width: 18px;
+    /* line-height: 16px; */
+    border-radius: 50%;
+    font-family: opensans-eb,open sans,"sans-serif";
+    padding: 2px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: small;
+    margin-left: -15px;
+    margin-top: -10px;
+}
+
+/* header2 */
+#header2{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+    background-color: #F1F1F1;
+}
+
+#header2 p {
+    margin-top: 7px;
+    font-weight: 400;
+}
+
+#redCart {
+    color: #ec1a30;
+}
+
+/* mine  */
+
+
+h1 {
+    color: #363636;
+    font-size: 24px;
+    margin: 6px 0 9px;
+    padding: 11px 0px 0px;
+    margin-left: 195px;
+}
+
+#product-name {
+    font-size: 15px;
+    color: #373737;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.left-container {
+    margin-left: 195px;
+    border: 1px solid lightgray;
+    margin-right: 530px;
+    height: 283px;
+    width: 785px;
+}
+
+
+#product-image {
+    margin-left: 10px;
+}
+
+#product-image>img {
+    height: 240px;
+    width: 180px;
+}
+
+.box {
+    display: flex;
+    margin-top: -20px;
+}
+
+#quanText {
+    color: #646464;
+    font-size: 13px;
+    margin-left: 235px;
+}
+
+.increment {
+    display: flex;
+    margin-left: 220px;
+    height: 20px;
+    gap: 3px;
+}
+
+#minus {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 10px;
+    padding-top: 12px;
+}
+
+#num {
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+    border-radius: 5px;
+    padding-top: 7px;
+    font-size: 15px;
+    height: 28px;
+    width: 30px;
+}
+
+#plus {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 12px;
+}
+
+.flex {
+    display: flex;
+}
+
+#features {
+    line-height: 15px;
+    font-size: 12px;
+    color: #646464;
+    padding-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 270px;
+    border-radius: 11px;
+    font-size: 12px;
+    color: #343434;
+    background-color: transparent;
+    border: 1px solid #c3c3c3;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#firstcheckout {
+    color: white;
+    border: none;
+    font-size: 14px;
+    background-color: #ec1a30;
+    height: 35px;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-left: 860px;
+}
+
+.checkbtn {
+    background-color: #ec1a30;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    height: 35px;
+    width: 315px;
+    border: none;
+}
+
+.container {
+    display: flex;
+}
+
+#head-container {
+    display: flex;
+}
+
+.right-container {
+    margin-top: 74px;
+    margin-left: -500px;
+    margin-right: 195px;
+}
+
+h4 {
+    font-size: 15px;
+    color: #363636;
+    margin-top: 8px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.control-label {
+    font-size: 13px;
+    color: #363636;
+    margin-top: -10px;
+}
+
+.coupon {
+    margin-top: -10px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #555;
+    height: 33px;
+    width: 205px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 12px;
+    box-shadow: inset rgba(0,0,0,0.75);
+}
+
+.couponBox {
+    margin-top: -3px;
+}
+
+.apply {
+    margin-left: 29px;
+    color: #ec1a30;
+    cursor: pointer;
+}
+
+#availableCode {
+    color: #ec1a30;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#marginTop {
+    margin-top: 6px;
+}
+
+.voucherBox {
+    margin-top: 2px;
+}
+
+.left {
+    font-size: 15px;
+    margin-left: 82px;
+}
+.left2 {
+    margin-left: 116px;
+}
+.small {
+    font-size: 12px;
+}
+.top {
+    margin-top: -3px;
+    margin-bottom: -10px;
+}
+hr {
+    border: 1px solid rgb(211, 211, 211);
+}
+
+#order {
+    font-size: 15px;
+    color: #363636;
+}
+
+#earn {
+    font-size: 12px;
+    color: #646464;
+    margin-top: 6px;
+}
+
+#up {
+    margin-top: -14px;
+}
+#red {
+    color: #ec1a30;
+    text-decoration: none;
+}
+
+.lastDiv {
+    margin-bottom: 10px;
+}
+
+#home{
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 1230px;
+}
+
+#shoppingText {
+    text-decoration: none;
+    color: #ec1a30;
+    font-size: 9px;
+    margin-left: 8px;
+}
+
+#arrow {
+text-decoration: none;
+color: #ec1a30;
+font-size: 9px;
+margin-left: 8px;
+}
+
+/* Footer Section  */
+
+.flex{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    width: 100vw;
+    height: 81vh;
+    background-color: #191919;
+    font-family: 'Open Sans', sans-serif;
+}
+.upper{
+    margin-top: 50px;
+    align-items: center;
+}
+.lower p{
+    color: white;
+}
+.lower{
+    width: 100vw;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+}
+.searchbar-footer{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #242424;
+    color: grey;
+    width: 1009px;
+    height: 50px;
+}
+.searchbar-footer input{
+    padding-left: 10px;
+}
+.searchbar-footer h8{
+    font-size: 14px;
+    margin: 0 20px 0 20px;
+}
+.foot-body h3{
+    font-size: 13px;
+    margin: 0 100px 15px 0;
+    color: white;
+    font-weight: bolder;
+}
+.foot-body{
+    margin-top: 8px;
+    margin-right: 200px;
+    line-height: 6px;
+}
+.foot-body p{
+    color: grey;
+    margin-bottom: 2px;
+}
+.foot-body p:hover{
+    cursor: pointer;
+}
+.mid-line{
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.foot-{
+    justify-content: center;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.foot- img{
+    height: 50px;
+    margin-right: 20px;
+}
+.foot- div{
+    margin-right: 60px;
+    margin-top: -5px;
+    line-height: 5px;
+}
+footer input{
+    border-radius: 5px;
+    width: 293px;
+    height: 32px;
+}
+footer button{
+    color: white;
+    font-weight: 900;
+    background-color: #EC1A30;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    width: 177px;
+}
+#submitBtn {
+    padding-bottom: 3px;
+}
+#email {
+    border: none;
+}
